@@ -20,14 +20,14 @@ body{
     max-width: 1000px;
     text-align: center;
 }
-.code-container{
+.digit-container{
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 40px 0px;
     padding: 20px;
 }
-.code{
+.digit{
     font-weight: 300;
     text-align: center;
     margin: 1%;
@@ -38,13 +38,13 @@ body{
     width: 100px;
     -moz-appearance: textfield;
 }
-.code::-webkit-outer-spin-button,
-.code::-webkit-inner-spin-button{
+.digit::-webkit-outer-spin-button,
+.digit::-webkit-inner-spin-button{
     -webkit-appearance: none;
     margin: 0;
 }
 
-.code:valid{
+.digit:valid{
     border-color: #3498db;
     box-shadow: 0 10px 10px -5px rgba(0,0,0,0.25) ;
 }
@@ -60,10 +60,10 @@ body{
 }
 
 @media  (max-width: 600px){
-    .code-container{
+    .digit-container{
         flex-wrap: wrap;
     }
-    .code{
+    .digit{
         font-size: 60px;
         height: 80px;
         max-width: 70px;
